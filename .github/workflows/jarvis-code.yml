@@ -29,3 +29,4 @@ jobs:
   run: |
     STATUS=$(curl -s https://www.githubstatus.com/api/v2/status.json | jq -r '.status.description')
     echo "GitHub Status: $STATUS"
+    
